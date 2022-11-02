@@ -1,0 +1,79 @@
+{
+  "spec": {
+    "_meta": {
+      "version": 3
+    },
+    "nodes": [
+      {
+        "name": "libiconv",
+        "version": "1.16",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "libs": [
+            "shared",
+            "static"
+          ],
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "iwav2dx3w6bi363i3gqu3ndd2rajsle7ebgznblzarzb46iraw4q====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "i4thkwa6b35evebryes5pjw4up5s6pxx",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "iuparzfnzuwmmhj5ytlhaobn4nz3cct4"
+      },
+      {
+        "name": "gnuconfig",
+        "version": "2021-08-14",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "7qakwrcwsb3n4vna7ixvloiiiah6geinixa3tmzhuiphanrp7cqa====",
+        "hash": "i4thkwa6b35evebryes5pjw4up5s6pxx"
+      }
+    ]
+  },
+  "buildcache_layout_version": 1,
+  "binary_cache_checksum": {
+    "hash_algorithm": "sha256",
+    "hash": "58ef399a4bd8794a00314440e02de8c685c9c02d1b02a751923ae669556a1a91"
+  },
+  "buildinfo": {
+    "relative_prefix": "linux-centos7-aarch64/gcc-10.2.1/libiconv-1.16-iuparzfnzuwmmhj5ytlhaobn4nz3cct4",
+    "relative_rpaths": false
+  }
+}

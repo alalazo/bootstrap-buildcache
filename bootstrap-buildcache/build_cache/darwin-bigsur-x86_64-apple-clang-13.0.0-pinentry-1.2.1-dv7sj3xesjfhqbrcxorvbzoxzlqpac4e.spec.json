@@ -1,0 +1,172 @@
+{
+  "spec": {
+    "_meta": {
+      "version": 3
+    },
+    "nodes": [
+      {
+        "name": "pinentry",
+        "version": "1.2.1",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "bigsur",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.0.0"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "gui": [
+            "tty"
+          ],
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "qsu2xdbrrlgyghpwvl6psjnhomvbnycpxxf4v7hrrem45sztfuga====",
+        "dependencies": [
+          {
+            "name": "libassuan",
+            "hash": "ow5h7we5zrgoknsvss3yjjs4g3aci4b2",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libgpg-error",
+            "hash": "w7xfbrbfdnssbfoxrsz4emt6aildxsfy",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "dv7sj3xesjfhqbrcxorvbzoxzlqpac4e"
+      },
+      {
+        "name": "libassuan",
+        "version": "2.5.5",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "bigsur",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.0.0"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "c3ivdmynllmkorbugytrdbjnqdpwzsptmw3i35fdybei3z6ivg4q====",
+        "dependencies": [
+          {
+            "name": "libgpg-error",
+            "hash": "w7xfbrbfdnssbfoxrsz4emt6aildxsfy",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "ow5h7we5zrgoknsvss3yjjs4g3aci4b2"
+      },
+      {
+        "name": "libgpg-error",
+        "version": "1.46",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "bigsur",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.0.0"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "anyr6g6qentahep3guqdsjavmzmsv5ofw5mcw4u42oujtwk35dua====",
+        "dependencies": [
+          {
+            "name": "gawk",
+            "hash": "w6pmtl3cdi66pped4p6b2k6ggjpgadd2",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "w7xfbrbfdnssbfoxrsz4emt6aildxsfy"
+      },
+      {
+        "name": "gawk",
+        "version": "5.2.0",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "bigsur",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.0.0"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "nls": false,
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "external": {
+          "path": "/usr/local",
+          "module": null,
+          "extra_attributes": {}
+        },
+        "package_hash": "7555yr75vpzsz4qwk6bzcnwzfb3wk3ks3fvibtotmpoahglkeyjq====",
+        "hash": "w6pmtl3cdi66pped4p6b2k6ggjpgadd2"
+      }
+    ]
+  },
+  "buildcache_layout_version": 1,
+  "binary_cache_checksum": {
+    "hash_algorithm": "sha256",
+    "hash": "509d6881145a33b7de69db63af84fe887e7c995ffd4e89003a25fafa45b5874b"
+  },
+  "buildinfo": {
+    "relative_prefix": "darwin-bigsur-x86_64/apple-clang-13.0.0/pinentry-1.2.1-dv7sj3xesjfhqbrcxorvbzoxzlqpac4e",
+    "relative_rpaths": false
+  }
+}

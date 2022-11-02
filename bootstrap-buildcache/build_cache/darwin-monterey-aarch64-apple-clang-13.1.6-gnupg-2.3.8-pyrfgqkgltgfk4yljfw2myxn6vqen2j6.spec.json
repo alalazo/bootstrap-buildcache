@@ -1,0 +1,552 @@
+{
+  "spec": {
+    "_meta": {
+      "version": 3
+    },
+    "nodes": [
+      {
+        "name": "gnupg",
+        "version": "2.3.8",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "w3c32zlpoohpreq5mw5gonpgtsxas4if32mlbq4o437vuxkfxbfq====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "taidzegvpqxoegk5btn7rdxwukpwy6s5",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "libassuan",
+            "hash": "trhqsquxpocecfgkeif5bh2dwgu4njbp",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libgcrypt",
+            "hash": "eadvdhou2xjdhf47x3q5x2ypa4qhfqjy",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libgpg-error",
+            "hash": "yg67vozcaac75p3dnhd6c3cjpa5nsfjo",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libiconv",
+            "hash": "id44zneq3nh4grvtekqoefl24okct4ak",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libksba",
+            "hash": "m7o6qwsu2gxvlka2jbd5puzwj3z553ob",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "npth",
+            "hash": "lp7fobvpwlk3xugo7th2kmcnrvqqxb3b",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "pinentry",
+            "hash": "6m36xv6ft3yterimp6xoozz66ych5eew",
+            "type": [
+              "run"
+            ]
+          },
+          {
+            "name": "zlib",
+            "hash": "azrxnl6yp7xeapfy7nljiopucaelofuh",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "pyrfgqkgltgfk4yljfw2myxn6vqen2j6"
+      },
+      {
+        "name": "gnuconfig",
+        "version": "2021-08-14",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "generic",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "7qakwrcwsb3n4vna7ixvloiiiah6geinixa3tmzhuiphanrp7cqa====",
+        "hash": "taidzegvpqxoegk5btn7rdxwukpwy6s5"
+      },
+      {
+        "name": "libassuan",
+        "version": "2.5.5",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "c3ivdmynllmkorbugytrdbjnqdpwzsptmw3i35fdybei3z6ivg4q====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "taidzegvpqxoegk5btn7rdxwukpwy6s5",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "libgpg-error",
+            "hash": "yg67vozcaac75p3dnhd6c3cjpa5nsfjo",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "trhqsquxpocecfgkeif5bh2dwgu4njbp"
+      },
+      {
+        "name": "libgpg-error",
+        "version": "1.46",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "anyr6g6qentahep3guqdsjavmzmsv5ofw5mcw4u42oujtwk35dua====",
+        "dependencies": [
+          {
+            "name": "gawk",
+            "hash": "bcvpntdiyklvf56n4iyqznbxchsvlf4g",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "gnuconfig",
+            "hash": "taidzegvpqxoegk5btn7rdxwukpwy6s5",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "yg67vozcaac75p3dnhd6c3cjpa5nsfjo"
+      },
+      {
+        "name": "gawk",
+        "version": "5.2.0",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "nls": false,
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "external": {
+          "path": "/Users/spack-bootstrap-runner/homebrew",
+          "module": null,
+          "extra_attributes": {}
+        },
+        "package_hash": "7555yr75vpzsz4qwk6bzcnwzfb3wk3ks3fvibtotmpoahglkeyjq====",
+        "hash": "bcvpntdiyklvf56n4iyqznbxchsvlf4g"
+      },
+      {
+        "name": "libgcrypt",
+        "version": "1.10.1",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "4qic2yau3ynwg453odgzgrdukmilpq7mo5iwxco6t4jkbumshtnq====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "taidzegvpqxoegk5btn7rdxwukpwy6s5",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "libgpg-error",
+            "hash": "yg67vozcaac75p3dnhd6c3cjpa5nsfjo",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "eadvdhou2xjdhf47x3q5x2ypa4qhfqjy"
+      },
+      {
+        "name": "libiconv",
+        "version": "1.16",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "libs": [
+            "shared",
+            "static"
+          ],
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "iwav2dx3w6bi363i3gqu3ndd2rajsle7ebgznblzarzb46iraw4q====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "taidzegvpqxoegk5btn7rdxwukpwy6s5",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "id44zneq3nh4grvtekqoefl24okct4ak"
+      },
+      {
+        "name": "libksba",
+        "version": "1.6.2",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "wunra2nrc3whxvzofi56qsanpa256bdgx5pvz4k4c65vrs73trma====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "taidzegvpqxoegk5btn7rdxwukpwy6s5",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "libgpg-error",
+            "hash": "yg67vozcaac75p3dnhd6c3cjpa5nsfjo",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "m7o6qwsu2gxvlka2jbd5puzwj3z553ob"
+      },
+      {
+        "name": "npth",
+        "version": "1.6",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "lzrvheast6wkpezst4xnp3aygt26dwv5wdailfmqgqwukytcvbjq====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "taidzegvpqxoegk5btn7rdxwukpwy6s5",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "lp7fobvpwlk3xugo7th2kmcnrvqqxb3b"
+      },
+      {
+        "name": "pinentry",
+        "version": "1.2.1",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "gui": [
+            "tty"
+          ],
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "qsu2xdbrrlgyghpwvl6psjnhomvbnycpxxf4v7hrrem45sztfuga====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "taidzegvpqxoegk5btn7rdxwukpwy6s5",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "libassuan",
+            "hash": "trhqsquxpocecfgkeif5bh2dwgu4njbp",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libgpg-error",
+            "hash": "yg67vozcaac75p3dnhd6c3cjpa5nsfjo",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "6m36xv6ft3yterimp6xoozz66ych5eew"
+      },
+      {
+        "name": "zlib",
+        "version": "1.2.13",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": {
+            "name": "m1",
+            "vendor": "Apple",
+            "features": [
+              "aes",
+              "asimd",
+              "asimddp",
+              "asimdfhm",
+              "asimdhp",
+              "asimdrdm",
+              "atomics",
+              "cpuid",
+              "crc32",
+              "dcpodp",
+              "dcpop",
+              "dit",
+              "evtstrm",
+              "fcma",
+              "flagm",
+              "flagm2",
+              "fp",
+              "fphp",
+              "frint",
+              "ilrcpc",
+              "jscvt",
+              "lrcpc",
+              "paca",
+              "pacg",
+              "pmull",
+              "sb",
+              "sha1",
+              "sha2",
+              "sha3",
+              "sha512",
+              "ssbs",
+              "uscat"
+            ],
+            "generation": 0,
+            "parents": [
+              "aarch64"
+            ]
+          }
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "makefile",
+          "optimize": true,
+          "pic": true,
+          "shared": true,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "ghj4qyx3sv3so5vpvnodld6r372mc6oqefofmoer3xbpq5tcwvca====",
+        "hash": "azrxnl6yp7xeapfy7nljiopucaelofuh"
+      }
+    ]
+  },
+  "buildcache_layout_version": 1,
+  "binary_cache_checksum": {
+    "hash_algorithm": "sha256",
+    "hash": "3c41b0cf2db01ad2675f27d51edb4cf7f798be9ca0e3ac781990ff8b462cd8f6"
+  },
+  "buildinfo": {
+    "relative_prefix": "darwin-monterey-aarch64/apple-clang-13.1.6/gnupg-2.3.8-pyrfgqkgltgfk4yljfw2myxn6vqen2j6",
+    "relative_rpaths": false
+  }
+}

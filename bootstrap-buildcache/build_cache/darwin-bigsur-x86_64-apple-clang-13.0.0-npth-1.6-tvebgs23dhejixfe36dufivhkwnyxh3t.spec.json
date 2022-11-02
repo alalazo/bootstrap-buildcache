@@ -1,0 +1,45 @@
+{
+  "spec": {
+    "_meta": {
+      "version": 3
+    },
+    "nodes": [
+      {
+        "name": "npth",
+        "version": "1.6",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "bigsur",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.0.0"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "lzrvheast6wkpezst4xnp3aygt26dwv5wdailfmqgqwukytcvbjq====",
+        "hash": "tvebgs23dhejixfe36dufivhkwnyxh3t"
+      }
+    ]
+  },
+  "buildcache_layout_version": 1,
+  "binary_cache_checksum": {
+    "hash_algorithm": "sha256",
+    "hash": "95b9852c2e69f18fb8eff3dc6fc2bb9efe38821314cac6c310523da89c8346a2"
+  },
+  "buildinfo": {
+    "relative_prefix": "darwin-bigsur-x86_64/apple-clang-13.0.0/npth-1.6-tvebgs23dhejixfe36dufivhkwnyxh3t",
+    "relative_rpaths": false
+  }
+}

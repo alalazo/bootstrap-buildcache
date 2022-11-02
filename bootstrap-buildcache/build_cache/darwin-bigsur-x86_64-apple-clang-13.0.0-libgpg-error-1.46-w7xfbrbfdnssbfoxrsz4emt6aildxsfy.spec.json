@@ -1,0 +1,87 @@
+{
+  "spec": {
+    "_meta": {
+      "version": 3
+    },
+    "nodes": [
+      {
+        "name": "libgpg-error",
+        "version": "1.46",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "bigsur",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.0.0"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "anyr6g6qentahep3guqdsjavmzmsv5ofw5mcw4u42oujtwk35dua====",
+        "dependencies": [
+          {
+            "name": "gawk",
+            "hash": "w6pmtl3cdi66pped4p6b2k6ggjpgadd2",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "w7xfbrbfdnssbfoxrsz4emt6aildxsfy"
+      },
+      {
+        "name": "gawk",
+        "version": "5.2.0",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "bigsur",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.0.0"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "nls": false,
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "external": {
+          "path": "/usr/local",
+          "module": null,
+          "extra_attributes": {}
+        },
+        "package_hash": "7555yr75vpzsz4qwk6bzcnwzfb3wk3ks3fvibtotmpoahglkeyjq====",
+        "hash": "w6pmtl3cdi66pped4p6b2k6ggjpgadd2"
+      }
+    ]
+  },
+  "buildcache_layout_version": 1,
+  "binary_cache_checksum": {
+    "hash_algorithm": "sha256",
+    "hash": "6973cd597db96830822a8111fe3b3cff271e8cedc26fb0cb48443c2de2cc50ad"
+  },
+  "buildinfo": {
+    "relative_prefix": "darwin-bigsur-x86_64/apple-clang-13.0.0/libgpg-error-1.46-w7xfbrbfdnssbfoxrsz4emt6aildxsfy",
+    "relative_rpaths": false
+  }
+}

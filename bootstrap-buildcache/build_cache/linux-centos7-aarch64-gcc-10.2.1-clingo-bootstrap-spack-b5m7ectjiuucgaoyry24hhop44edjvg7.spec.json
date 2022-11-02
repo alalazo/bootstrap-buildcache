@@ -1,0 +1,754 @@
+{
+  "spec": {
+    "_meta": {
+      "version": 3
+    },
+    "nodes": [
+      {
+        "name": "clingo-bootstrap",
+        "version": "spack",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_type": "Release",
+          "docs": false,
+          "ipo": false,
+          "python": true,
+          "static_libstdcpp": true,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "uida4zcw5edd245pmdktwu4fzp4vd4k3j7dgezr44yg74cmfwfna====",
+        "dependencies": [
+          {
+            "name": "bison",
+            "hash": "ivv3izq5lr37ccqciqwky2oufuqxok5e",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "cmake",
+            "hash": "4lq7biwhpxcyyq6zj4hjcfbm6xmz3src",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "python",
+            "hash": "5lvc2hzbjok2knvkwbyskcicgkdornyv",
+            "type": [
+              "build",
+              "link",
+              "run"
+            ]
+          },
+          {
+            "name": "re2c",
+            "hash": "6vcs2wfvc3bwlzwjcvdxati77flcbjcc",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "b5m7ectjiuucgaoyry24hhop44edjvg7"
+      },
+      {
+        "name": "bison",
+        "version": "3.0.4",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "patches": [
+            "b72914fe38e54a6fc25f29019e0a0786705c4f61ce20d414cc2010c8d62448c7"
+          ],
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "external": {
+          "path": "/usr",
+          "module": null,
+          "extra_attributes": {}
+        },
+        "patches": [
+          "b72914fe38e54a6fc25f29019e0a0786705c4f61ce20d414cc2010c8d62448c7"
+        ],
+        "package_hash": "36v6oebjstylrryry7o75qwgcrohx2dsvkaagom3245dvgq7nlfq====",
+        "hash": "ivv3izq5lr37ccqciqwky2oufuqxok5e"
+      },
+      {
+        "name": "cmake",
+        "version": "3.24.2",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_type": "Release",
+          "doc": false,
+          "ncurses": true,
+          "ownlibs": true,
+          "qt": false,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "i4pmdms2wg34pgybgpekv44cxaiw3fgpjg4rkkxd6ztov3uz2twa====",
+        "dependencies": [
+          {
+            "name": "ncurses",
+            "hash": "lslcvogz5dre4pftjmluwn7nrycfff2w",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "openssl",
+            "hash": "aqgwhi4yxlb63wpttb22l6x23s5nbf6j",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "4lq7biwhpxcyyq6zj4hjcfbm6xmz3src"
+      },
+      {
+        "name": "ncurses",
+        "version": "6.3",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "abi": "none",
+          "symlinks": false,
+          "termlib": true,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "xt4gmttjogkqm2ol74rux4rjqnilsdqxyjjgjrfgkwroyr5eignq====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "i4thkwa6b35evebryes5pjw4up5s6pxx",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "pkgconf",
+            "hash": "dppzhyum4kzmytg5wbr3dgmiqihip5eh",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "lslcvogz5dre4pftjmluwn7nrycfff2w"
+      },
+      {
+        "name": "gnuconfig",
+        "version": "2021-08-14",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "7qakwrcwsb3n4vna7ixvloiiiah6geinixa3tmzhuiphanrp7cqa====",
+        "hash": "i4thkwa6b35evebryes5pjw4up5s6pxx"
+      },
+      {
+        "name": "pkgconf",
+        "version": "1.8.0",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "olr5zscvqru56pgiiqlnzc4ud5e7iuyntj6fsplcrjh3jngqjpja====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "i4thkwa6b35evebryes5pjw4up5s6pxx",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "dppzhyum4kzmytg5wbr3dgmiqihip5eh"
+      },
+      {
+        "name": "openssl",
+        "version": "1.1.1q",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "certs": "mozilla",
+          "docs": false,
+          "patches": [
+            "3fdcf2d1e47c34f3a012f23306322c5a35cad55b180c9b6fb34537b55884645c"
+          ],
+          "shared": false,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "patches": [
+          "3fdcf2d1e47c34f3a012f23306322c5a35cad55b180c9b6fb34537b55884645c"
+        ],
+        "package_hash": "ibstwbsz2no5mxkaxs5xyxgugcxaqpkgmzht5tvxx4o5enomdnkq====",
+        "dependencies": [
+          {
+            "name": "ca-certificates-mozilla",
+            "hash": "72jdkbdavghko53yz7m6h5rjmnhrihqi",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "perl",
+            "hash": "ocsmecwilsbm5sitkhhfzm6bonyr55du",
+            "type": [
+              "build",
+              "test"
+            ]
+          },
+          {
+            "name": "zlib",
+            "hash": "mrdyh4e34orgypetqhru6romj6wlvyxm",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "aqgwhi4yxlb63wpttb22l6x23s5nbf6j"
+      },
+      {
+        "name": "ca-certificates-mozilla",
+        "version": "2022-10-11",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "534ljqvtxlihbb7evesr4emhe74e6juaardt6dkra4fpa7pcolxa====",
+        "hash": "72jdkbdavghko53yz7m6h5rjmnhrihqi"
+      },
+      {
+        "name": "perl",
+        "version": "5.34.1",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cpanm": true,
+          "shared": true,
+          "threads": true,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "253cxsmtz66kdovxua7a5pbu3qqkp556xttq5qrgr7rahup6fbea====",
+        "dependencies": [
+          {
+            "name": "berkeley-db",
+            "hash": "ifyx67fb27yzuqnvmue3penpwx5vmxqq",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "bzip2",
+            "hash": "okzj73innaf2okwran46kgcqfujg6vd6",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "gdbm",
+            "hash": "n64b5wcm2t4rkpizsnhcxwzr4ltxyycp",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "zlib",
+            "hash": "mrdyh4e34orgypetqhru6romj6wlvyxm",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "ocsmecwilsbm5sitkhhfzm6bonyr55du"
+      },
+      {
+        "name": "berkeley-db",
+        "version": "18.1.40",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cxx": true,
+          "docs": false,
+          "patches": [
+            "26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3",
+            "b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522"
+          ],
+          "stl": true,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "patches": [
+          "b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522",
+          "26090f418891757af46ac3b89a9f43d6eb5989f7a3dce3d1cfc99fba547203b3"
+        ],
+        "package_hash": "vpd5eetcurni5woqzl6jrukuo4a6fr5yoluxz32gxezgx5ftpxza====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "i4thkwa6b35evebryes5pjw4up5s6pxx",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "ifyx67fb27yzuqnvmue3penpwx5vmxqq"
+      },
+      {
+        "name": "bzip2",
+        "version": "1.0.8",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "debug": false,
+          "pic": false,
+          "shared": true,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "hwzzje524zinhoim5aj25ucowy2n57b6zm7gtzaimfjft2onrvuq====",
+        "dependencies": [
+          {
+            "name": "diffutils",
+            "hash": "6p7wachy4ozu4fq4ta52zrz4vlfkbtue",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "okzj73innaf2okwran46kgcqfujg6vd6"
+      },
+      {
+        "name": "diffutils",
+        "version": "3.8",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "jv4gzc4vymljleyxlrnpauwx6pzt7kwz3ppu2cmw2ndcbxmupocq====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "i4thkwa6b35evebryes5pjw4up5s6pxx",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "libiconv",
+            "hash": "iuparzfnzuwmmhj5ytlhaobn4nz3cct4",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "6p7wachy4ozu4fq4ta52zrz4vlfkbtue"
+      },
+      {
+        "name": "libiconv",
+        "version": "1.16",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "libs": [
+            "shared",
+            "static"
+          ],
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "iwav2dx3w6bi363i3gqu3ndd2rajsle7ebgznblzarzb46iraw4q====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "i4thkwa6b35evebryes5pjw4up5s6pxx",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "iuparzfnzuwmmhj5ytlhaobn4nz3cct4"
+      },
+      {
+        "name": "gdbm",
+        "version": "1.19",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "gvha7657bne2aoksscez5obusidw4wwc4g6ju4a6nzqc77drwziq====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "i4thkwa6b35evebryes5pjw4up5s6pxx",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "readline",
+            "hash": "serasrqyr32jpa4pnya37qvmr5tjswtg",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "n64b5wcm2t4rkpizsnhcxwzr4ltxyycp"
+      },
+      {
+        "name": "readline",
+        "version": "8.1.2",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "ouxxalld7kxximyke7ekitja6kuz3h7tlt7lm2szo3hg7amf6ana====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "i4thkwa6b35evebryes5pjw4up5s6pxx",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "ncurses",
+            "hash": "lslcvogz5dre4pftjmluwn7nrycfff2w",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "serasrqyr32jpa4pnya37qvmr5tjswtg"
+      },
+      {
+        "name": "zlib",
+        "version": "1.2.13",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "optimize": true,
+          "pic": true,
+          "shared": true,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "nek7achbzsx7lorkmjnv6xv4ym4fvftnj27c22y65jyhiz5tmy4a====",
+        "hash": "mrdyh4e34orgypetqhru6romj6wlvyxm"
+      },
+      {
+        "name": "python",
+        "version": "3.11",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "bz2": true,
+          "ctypes": true,
+          "dbm": true,
+          "debug": false,
+          "libxml2": true,
+          "lzma": true,
+          "nis": false,
+          "optimizations": false,
+          "patches": [
+            "0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87",
+            "7d4092366f2e9c19ba85132402e70eb96cac94fdda6a33810c2a980a129c7a22",
+            "f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4"
+          ],
+          "pic": true,
+          "pyexpat": true,
+          "pythoncmd": true,
+          "readline": true,
+          "shared": true,
+          "sqlite3": true,
+          "ssl": true,
+          "tix": false,
+          "tkinter": false,
+          "ucs4": false,
+          "uuid": true,
+          "zlib": true,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "external": {
+          "path": "/opt/python/cp311-cp311",
+          "module": null,
+          "extra_attributes": {}
+        },
+        "patches": [
+          "0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87",
+          "f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4",
+          "7d4092366f2e9c19ba85132402e70eb96cac94fdda6a33810c2a980a129c7a22"
+        ],
+        "package_hash": "gtbwplmw2yoovwdq7cmaz2ohfmokzi63keasoiketx7engawjw4a====",
+        "hash": "5lvc2hzbjok2knvkwbyskcicgkdornyv"
+      },
+      {
+        "name": "re2c",
+        "version": "2.2",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "3nbsuuuwbvyc6waxjuzllherr2j2f42mtxfirvf27rgxvosix67q====",
+        "hash": "6vcs2wfvc3bwlzwjcvdxati77flcbjcc"
+      }
+    ]
+  },
+  "buildcache_layout_version": 1,
+  "binary_cache_checksum": {
+    "hash_algorithm": "sha256",
+    "hash": "5412e2b3f45d251acd976c12d238549e0c324e6481bf328f9547fafc0e810daf"
+  },
+  "buildinfo": {
+    "relative_prefix": "linux-centos7-aarch64/gcc-10.2.1/clingo-bootstrap-spack-b5m7ectjiuucgaoyry24hhop44edjvg7",
+    "relative_rpaths": false
+  }
+}

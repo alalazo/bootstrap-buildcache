@@ -1,0 +1,160 @@
+{
+  "spec": {
+    "_meta": {
+      "version": 3
+    },
+    "nodes": [
+      {
+        "name": "pinentry",
+        "version": "1.2.1",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "gui": [
+            "tty"
+          ],
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "qsu2xdbrrlgyghpwvl6psjnhomvbnycpxxf4v7hrrem45sztfuga====",
+        "dependencies": [
+          {
+            "name": "libassuan",
+            "hash": "yk2555moxgj3dro6edznumguezecriso",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libgpg-error",
+            "hash": "nbhvf75esgtjeu6nh57gu6mnikiazmjt",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "pto3uq53xwl7dtbvycdp4qccacrrzs3r"
+      },
+      {
+        "name": "libassuan",
+        "version": "2.5.5",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "c3ivdmynllmkorbugytrdbjnqdpwzsptmw3i35fdybei3z6ivg4q====",
+        "dependencies": [
+          {
+            "name": "libgpg-error",
+            "hash": "nbhvf75esgtjeu6nh57gu6mnikiazmjt",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "yk2555moxgj3dro6edznumguezecriso"
+      },
+      {
+        "name": "libgpg-error",
+        "version": "1.46",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "uvt5353br2nqkzl5w3ttr672x2lkwtmto23eiplfxffy4bodhhfa====",
+        "dependencies": [
+          {
+            "name": "gawk",
+            "hash": "lv3lwfvjkujvxc7tmqv4feqz46kbl2eh",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "nbhvf75esgtjeu6nh57gu6mnikiazmjt"
+      },
+      {
+        "name": "gawk",
+        "version": "4.0.2",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "nls": false,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "external": {
+          "path": "/usr",
+          "module": null,
+          "extra_attributes": {}
+        },
+        "package_hash": "7555yr75vpzsz4qwk6bzcnwzfb3wk3ks3fvibtotmpoahglkeyjq====",
+        "hash": "lv3lwfvjkujvxc7tmqv4feqz46kbl2eh"
+      }
+    ]
+  },
+  "buildcache_layout_version": 1,
+  "binary_cache_checksum": {
+    "hash_algorithm": "sha256",
+    "hash": "bd9ae21dff99c34165baa680df4b4b36339e207fec2ac4fcc80103d774a1dd84"
+  },
+  "buildinfo": {
+    "relative_prefix": "linux-centos7-x86_64/gcc-10.2.1/pinentry-1.2.1-pto3uq53xwl7dtbvycdp4qccacrrzs3r",
+    "relative_rpaths": false
+  }
+}

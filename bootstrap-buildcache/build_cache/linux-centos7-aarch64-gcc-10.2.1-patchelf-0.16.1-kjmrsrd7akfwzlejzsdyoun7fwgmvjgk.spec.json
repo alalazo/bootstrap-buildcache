@@ -1,0 +1,83 @@
+{
+  "spec": {
+    "_meta": {
+      "version": 3
+    },
+    "nodes": [
+      {
+        "name": "patchelf",
+        "version": "0.16.1",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [
+            "-static-libstdc++",
+            "-static-libgcc"
+          ],
+          "ldlibs": []
+        },
+        "package_hash": "fhyrdhsk55mghzgg3dhw3yt3aqscnh42lch2tbpa7xnbop276bgq====",
+        "dependencies": [
+          {
+            "name": "gnuconfig",
+            "hash": "6ecolfxepj4r75ftlhvoll3rbil5uk5q",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "kjmrsrd7akfwzlejzsdyoun7fwgmvjgk"
+      },
+      {
+        "name": "gnuconfig",
+        "version": "2021-08-14",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "generic",
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [
+            "-static-libstdc++",
+            "-static-libgcc"
+          ],
+          "ldlibs": []
+        },
+        "package_hash": "7qakwrcwsb3n4vna7ixvloiiiah6geinixa3tmzhuiphanrp7cqa====",
+        "hash": "6ecolfxepj4r75ftlhvoll3rbil5uk5q"
+      }
+    ]
+  },
+  "buildcache_layout_version": 1,
+  "binary_cache_checksum": {
+    "hash_algorithm": "sha256",
+    "hash": "2c1975adb6fbd42bdb960b67fa6b32bc2846a28e5d293d2ca7b44a38f49ecf4f"
+  },
+  "buildinfo": {
+    "relative_prefix": "linux-centos7-aarch64/gcc-10.2.1/patchelf-0.16.1-kjmrsrd7akfwzlejzsdyoun7fwgmvjgk",
+    "relative_rpaths": false
+  }
+}

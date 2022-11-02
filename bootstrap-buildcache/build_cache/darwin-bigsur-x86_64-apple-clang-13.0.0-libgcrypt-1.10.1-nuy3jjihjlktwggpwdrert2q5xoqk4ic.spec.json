@@ -1,0 +1,124 @@
+{
+  "spec": {
+    "_meta": {
+      "version": 3
+    },
+    "nodes": [
+      {
+        "name": "libgcrypt",
+        "version": "1.10.1",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "bigsur",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.0.0"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "4qic2yau3ynwg453odgzgrdukmilpq7mo5iwxco6t4jkbumshtnq====",
+        "dependencies": [
+          {
+            "name": "libgpg-error",
+            "hash": "w7xfbrbfdnssbfoxrsz4emt6aildxsfy",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "nuy3jjihjlktwggpwdrert2q5xoqk4ic"
+      },
+      {
+        "name": "libgpg-error",
+        "version": "1.46",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "bigsur",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.0.0"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "anyr6g6qentahep3guqdsjavmzmsv5ofw5mcw4u42oujtwk35dua====",
+        "dependencies": [
+          {
+            "name": "gawk",
+            "hash": "w6pmtl3cdi66pped4p6b2k6ggjpgadd2",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "w7xfbrbfdnssbfoxrsz4emt6aildxsfy"
+      },
+      {
+        "name": "gawk",
+        "version": "5.2.0",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "bigsur",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.0.0"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "nls": false,
+          "cflags": [
+            "-mmacosx-version-min=10.13"
+          ],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "external": {
+          "path": "/usr/local",
+          "module": null,
+          "extra_attributes": {}
+        },
+        "package_hash": "7555yr75vpzsz4qwk6bzcnwzfb3wk3ks3fvibtotmpoahglkeyjq====",
+        "hash": "w6pmtl3cdi66pped4p6b2k6ggjpgadd2"
+      }
+    ]
+  },
+  "buildcache_layout_version": 1,
+  "binary_cache_checksum": {
+    "hash_algorithm": "sha256",
+    "hash": "ebb85da4d0b4ea93e073b8faf11e4ec955752a589b0ee47cd46b825ef685e536"
+  },
+  "buildinfo": {
+    "relative_prefix": "darwin-bigsur-x86_64/apple-clang-13.0.0/libgcrypt-1.10.1-nuy3jjihjlktwggpwdrert2q5xoqk4ic",
+    "relative_rpaths": false
+  }
+}

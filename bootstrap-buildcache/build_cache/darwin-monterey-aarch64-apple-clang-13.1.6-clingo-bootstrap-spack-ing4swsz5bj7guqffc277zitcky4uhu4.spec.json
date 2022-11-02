@@ -1,0 +1,230 @@
+{
+  "spec": {
+    "_meta": {
+      "version": 3
+    },
+    "nodes": [
+      {
+        "name": "clingo-bootstrap",
+        "version": "spack",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "cmake",
+          "build_type": "Release",
+          "docs": false,
+          "ipo": false,
+          "python": true,
+          "static_libstdcpp": true,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "uida4zcw5edd245pmdktwu4fzp4vd4k3j7dgezr44yg74cmfwfna====",
+        "dependencies": [
+          {
+            "name": "bison",
+            "hash": "p3b4ygh2bsmhct6gd5qxg4p2jjgvdunf",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "cmake",
+            "hash": "cyf77yntkbppzwnrcg2xx4cnvpkfkkr7",
+            "type": [
+              "build"
+            ]
+          },
+          {
+            "name": "python",
+            "hash": "zmjnijktyw7zjruvhpt4iguyuw2dopn3",
+            "type": [
+              "build",
+              "link",
+              "run"
+            ]
+          },
+          {
+            "name": "re2c",
+            "hash": "fuxm2pvne35akxv4mezh2zdneu6n4x7g",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "ing4swsz5bj7guqffc277zitcky4uhu4"
+      },
+      {
+        "name": "bison",
+        "version": "3.8.2",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "autotools",
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "external": {
+          "path": "/Users/spack-bootstrap-runner/homebrew/opt/bison",
+          "module": null,
+          "extra_attributes": {}
+        },
+        "package_hash": "d4j62fwvuxqbiez32ltjnhu47ac425wjebsy6fhoptv6saxazcxq====",
+        "hash": "p3b4ygh2bsmhct6gd5qxg4p2jjgvdunf"
+      },
+      {
+        "name": "cmake",
+        "version": "3.24.2",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "generic",
+          "build_type": "Release",
+          "doc": false,
+          "ncurses": true,
+          "ownlibs": true,
+          "qt": false,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "external": {
+          "path": "/Users/spack-bootstrap-runner/homebrew",
+          "module": null,
+          "extra_attributes": {}
+        },
+        "package_hash": "i4pmdms2wg34pgybgpekv44cxaiw3fgpjg4rkkxd6ztov3uz2twa====",
+        "hash": "cyf77yntkbppzwnrcg2xx4cnvpkfkkr7"
+      },
+      {
+        "name": "python",
+        "version": "3.8",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "generic",
+          "bz2": true,
+          "ctypes": true,
+          "dbm": true,
+          "debug": false,
+          "libxml2": true,
+          "lzma": true,
+          "nis": false,
+          "optimizations": false,
+          "patches": [
+            "0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87",
+            "4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768",
+            "f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4"
+          ],
+          "pic": true,
+          "pyexpat": true,
+          "pythoncmd": true,
+          "readline": true,
+          "shared": true,
+          "sqlite3": true,
+          "ssl": true,
+          "tix": false,
+          "tkinter": false,
+          "ucs4": false,
+          "uuid": true,
+          "zlib": true,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "external": {
+          "path": "/Users/spack-bootstrap-runner/.pyenv/versions/3.8.14",
+          "module": null,
+          "extra_attributes": {}
+        },
+        "patches": [
+          "0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87",
+          "f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4",
+          "4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768"
+        ],
+        "package_hash": "p2heh34iecwjpgrw7ez2zq7znjsjk4xrogdd6wpjig6jwcicpvfq====",
+        "hash": "zmjnijktyw7zjruvhpt4iguyuw2dopn3"
+      },
+      {
+        "name": "re2c",
+        "version": "2.2",
+        "arch": {
+          "platform": "darwin",
+          "platform_os": "monterey",
+          "target": "aarch64"
+        },
+        "compiler": {
+          "name": "apple-clang",
+          "version": "13.1.6"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "build_system": "generic",
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "3nbsuuuwbvyc6waxjuzllherr2j2f42mtxfirvf27rgxvosix67q====",
+        "hash": "fuxm2pvne35akxv4mezh2zdneu6n4x7g"
+      }
+    ]
+  },
+  "buildcache_layout_version": 1,
+  "binary_cache_checksum": {
+    "hash_algorithm": "sha256",
+    "hash": "4d9008372c73797fc0bd47c92c922f810e1b3fd44dc373682a7a0780b711058c"
+  },
+  "buildinfo": {
+    "relative_prefix": "darwin-monterey-aarch64/apple-clang-13.1.6/clingo-bootstrap-spack-ing4swsz5bj7guqffc277zitcky4uhu4",
+    "relative_rpaths": false
+  }
+}

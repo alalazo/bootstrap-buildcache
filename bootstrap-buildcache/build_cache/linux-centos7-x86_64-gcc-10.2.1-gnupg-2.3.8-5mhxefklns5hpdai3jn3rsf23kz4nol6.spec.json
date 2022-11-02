@@ -1,0 +1,396 @@
+{
+  "spec": {
+    "_meta": {
+      "version": 3
+    },
+    "nodes": [
+      {
+        "name": "gnupg",
+        "version": "2.3.8",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "2fmbpdbpib3bdhwilbxcqcrywvhyszc7iynireljknekw3hyzdzq====",
+        "dependencies": [
+          {
+            "name": "libassuan",
+            "hash": "yk2555moxgj3dro6edznumguezecriso",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libgcrypt",
+            "hash": "imws5ss7coeeo45zr6w54xnwjfjm4cc6",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libgpg-error",
+            "hash": "nbhvf75esgtjeu6nh57gu6mnikiazmjt",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libiconv",
+            "hash": "vyvyow3bnokashj3wntl7pgm5nc4h7vw",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libksba",
+            "hash": "cx425tk5tnod3523zj4izloqibr44frz",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "npth",
+            "hash": "opncvl75zv6njawkgtxgt4yhii65f5nx",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "pinentry",
+            "hash": "pto3uq53xwl7dtbvycdp4qccacrrzs3r",
+            "type": [
+              "run"
+            ]
+          },
+          {
+            "name": "zlib",
+            "hash": "dcixs2nytw7vlthk55mwvog7veypnuor",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "5mhxefklns5hpdai3jn3rsf23kz4nol6"
+      },
+      {
+        "name": "libassuan",
+        "version": "2.5.5",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "c3ivdmynllmkorbugytrdbjnqdpwzsptmw3i35fdybei3z6ivg4q====",
+        "dependencies": [
+          {
+            "name": "libgpg-error",
+            "hash": "nbhvf75esgtjeu6nh57gu6mnikiazmjt",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "yk2555moxgj3dro6edznumguezecriso"
+      },
+      {
+        "name": "libgpg-error",
+        "version": "1.46",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "uvt5353br2nqkzl5w3ttr672x2lkwtmto23eiplfxffy4bodhhfa====",
+        "dependencies": [
+          {
+            "name": "gawk",
+            "hash": "lv3lwfvjkujvxc7tmqv4feqz46kbl2eh",
+            "type": [
+              "build"
+            ]
+          }
+        ],
+        "hash": "nbhvf75esgtjeu6nh57gu6mnikiazmjt"
+      },
+      {
+        "name": "gawk",
+        "version": "4.0.2",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "nls": false,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "external": {
+          "path": "/usr",
+          "module": null,
+          "extra_attributes": {}
+        },
+        "package_hash": "7555yr75vpzsz4qwk6bzcnwzfb3wk3ks3fvibtotmpoahglkeyjq====",
+        "hash": "lv3lwfvjkujvxc7tmqv4feqz46kbl2eh"
+      },
+      {
+        "name": "libgcrypt",
+        "version": "1.10.1",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "4qic2yau3ynwg453odgzgrdukmilpq7mo5iwxco6t4jkbumshtnq====",
+        "dependencies": [
+          {
+            "name": "libgpg-error",
+            "hash": "nbhvf75esgtjeu6nh57gu6mnikiazmjt",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "imws5ss7coeeo45zr6w54xnwjfjm4cc6"
+      },
+      {
+        "name": "libiconv",
+        "version": "1.16",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "libs": [
+            "shared",
+            "static"
+          ],
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "iwav2dx3w6bi363i3gqu3ndd2rajsle7ebgznblzarzb46iraw4q====",
+        "hash": "vyvyow3bnokashj3wntl7pgm5nc4h7vw"
+      },
+      {
+        "name": "libksba",
+        "version": "1.6.2",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "wunra2nrc3whxvzofi56qsanpa256bdgx5pvz4k4c65vrs73trma====",
+        "dependencies": [
+          {
+            "name": "libgpg-error",
+            "hash": "nbhvf75esgtjeu6nh57gu6mnikiazmjt",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "cx425tk5tnod3523zj4izloqibr44frz"
+      },
+      {
+        "name": "npth",
+        "version": "1.6",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "lzrvheast6wkpezst4xnp3aygt26dwv5wdailfmqgqwukytcvbjq====",
+        "hash": "opncvl75zv6njawkgtxgt4yhii65f5nx"
+      },
+      {
+        "name": "pinentry",
+        "version": "1.2.1",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "gui": [
+            "tty"
+          ],
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "qsu2xdbrrlgyghpwvl6psjnhomvbnycpxxf4v7hrrem45sztfuga====",
+        "dependencies": [
+          {
+            "name": "libassuan",
+            "hash": "yk2555moxgj3dro6edznumguezecriso",
+            "type": [
+              "build",
+              "link"
+            ]
+          },
+          {
+            "name": "libgpg-error",
+            "hash": "nbhvf75esgtjeu6nh57gu6mnikiazmjt",
+            "type": [
+              "build",
+              "link"
+            ]
+          }
+        ],
+        "hash": "pto3uq53xwl7dtbvycdp4qccacrrzs3r"
+      },
+      {
+        "name": "zlib",
+        "version": "1.2.13",
+        "arch": {
+          "platform": "linux",
+          "platform_os": "centos7",
+          "target": "x86_64"
+        },
+        "compiler": {
+          "name": "gcc",
+          "version": "10.2.1"
+        },
+        "namespace": "builtin",
+        "parameters": {
+          "optimize": true,
+          "pic": true,
+          "shared": true,
+          "cflags": [],
+          "cppflags": [],
+          "cxxflags": [],
+          "fflags": [],
+          "ldflags": [],
+          "ldlibs": []
+        },
+        "package_hash": "nek7achbzsx7lorkmjnv6xv4ym4fvftnj27c22y65jyhiz5tmy4a====",
+        "hash": "dcixs2nytw7vlthk55mwvog7veypnuor"
+      }
+    ]
+  },
+  "buildcache_layout_version": 1,
+  "binary_cache_checksum": {
+    "hash_algorithm": "sha256",
+    "hash": "8a21155078dc51fdee7990326335e9f99192da0eb4b3490260a7399e30f20243"
+  },
+  "buildinfo": {
+    "relative_prefix": "linux-centos7-x86_64/gcc-10.2.1/gnupg-2.3.8-5mhxefklns5hpdai3jn3rsf23kz4nol6",
+    "relative_rpaths": false
+  }
+}
